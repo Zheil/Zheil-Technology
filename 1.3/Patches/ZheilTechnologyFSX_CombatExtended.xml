@@ -15,11 +15,11 @@
         <!-- ==================== Recipes ========================== -->
 
         <RecipeDef>
-          <defName>ZheilTechnologyMakeFSX</defName>
-          <label>make FSX x50</label>
-          <description>Craft x50 FSX.</description>
-          <jobString>Making Craft x50 FSX.</jobString>
-		  <workAmount>2550</workAmount>
+          <defName>ZheilTechnologyMakePrometheum</defName>
+          <label>make Prometheum x50</label>
+          <description>Craft Prometheum FSX.</description>
+          <jobString>Making Craft x50 Prometheum.</jobString>
+		  <workAmount>2050</workAmount>
           <ingredients>
             <li>
               <filter>
@@ -27,7 +27,7 @@
                   <li>Chemfuel</li>
                 </thingDefs>
               </filter>
-              <count>60</count>
+              <count>90</count>
             </li>
           </ingredients>
           <fixedIngredientFilter>
@@ -36,7 +36,7 @@
             </thingDefs>
           </fixedIngredientFilter>
           <products>
-            <Prometheum>50</Prometheum>
+            <Prometheum>30</Prometheum>
           </products>
 		  <recipeUsers>
 			<li>ZheilStation</li>
