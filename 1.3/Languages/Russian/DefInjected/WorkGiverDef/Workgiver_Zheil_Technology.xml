@@ -8,5 +8,10 @@
   <ZheilTechnologyWorkgiverSupply.label>купить ресурс</ZheilTechnologyWorkgiverSupply.label>
   <ZheilTechnologyWorkgiverSupply.verb>купить</ZheilTechnologyWorkgiverSupply.verb>
   <ZheilTechnologyWorkgiverSupply.gerund>купить на</ZheilTechnologyWorkgiverSupply.gerund>
+  
+  
+  <ZheilTechnologyWorkgiverFuelSynth.label>синтезировать ресурс</ZheilTechnologyWorkgiverFuelSynth.label>
+  <ZheilTechnologyWorkgiverFuelSynth.verb>синтезировать </ZheilTechnologyWorkgiverFuelSynth.verb>
+  <ZheilTechnologyWorkgiverFuelSynth.gerund>синтезировать на</ZheilTechnologyWorkgiverFuelSynth.gerund>
 
 </LanguageData>

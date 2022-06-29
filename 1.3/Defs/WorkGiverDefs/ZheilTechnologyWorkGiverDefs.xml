@@ -34,4 +34,21 @@
 		<prioritizeSustains>true</prioritizeSustains>
 	</WorkGiverDef>
 	
+	<WorkGiverDef>
+		<defName>ZheilTechnologyWorkgiverFuelSynth</defName>
+		<label>Synthesize a resource</label>
+		<giverClass>WorkGiver_DoBill</giverClass>
+		<priorityInType>100</priorityInType>
+		<workType>Crafting</workType>
+		<fixedBillGiverDefs>
+			<li>ZheilTechnologyMakeLegendaryChemfuel</li>
+		</fixedBillGiverDefs>
+		<verb>Synthesize</verb>
+		<gerund>Synthesize at</gerund>
+		<requiredCapacities>
+			<li>Manipulation</li>
+		</requiredCapacities>
+		<prioritizeSustains>true</prioritizeSustains>
+	</WorkGiverDef>
+	
 </Defs>

@@ -6,5 +6,8 @@
 
   <ZheilSupplyStation.label>Станция снабжения</ZheilSupplyStation.label>
   <ZheilSupplyStation.description>Станция снабжения позволяет получать продовольствия за серебро и золото</ZheilSupplyStation.description>
+  
+    <ZheilFuelLegendaryStation.label>Станция топлива</ZheilFuelLegendaryStation.label>
+  <ZheilFuelLegendaryStation.description>Станция снабжения позволяет получать топливо благодаря синтезу с воздухом</ZheilFuelLegendaryStation.description>
 
 </LanguageData>

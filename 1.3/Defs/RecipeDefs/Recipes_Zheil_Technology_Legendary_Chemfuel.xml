@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<RecipeDef>
+		<defName>ZheilTechnologyMakeLegendaryChemfuel</defName>
+		<label>make x100 Chemfuel</label>
+		<description>Make a bunch of Chemfuel</description>
+		<jobString>Synthesizing Chemfuel.</jobString>
+		<workSkill>Cooking</workSkill>
+		<effectWorking>Cook</effectWorking>
+		<soundWorking>Recipe_Drug</soundWorking>
+		<workAmount>100</workAmount>
+		<workSpeedStat>CookSpeed</workSpeedStat>
+		<ingredients>
+		</ingredients>
+		<products>
+			<Chemfuel>100</Chemfuel>
+		</products>
+		<recipeUsers>
+			<li>ZheilFuelLegendaryStation</li>
+		</recipeUsers>
+		<researchPrerequisite>ZheilTechnologyNeutroamine</researchPrerequisite>
+		<skillRequirements>
+			<Cooking>6</Cooking>
+		</skillRequirements>
+	</RecipeDef>
+
+</Defs>

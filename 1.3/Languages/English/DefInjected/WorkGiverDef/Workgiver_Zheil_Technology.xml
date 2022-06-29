@@ -8,5 +8,9 @@
   <ZheilTechnologyWorkgiverSupply.label>buy a resource</ZheilTechnologyWorkgiverSupply.label>
   <ZheilTechnologyWorkgiverSupply.verb>buy</ZheilTechnologyWorkgiverSupply.verb>
   <ZheilTechnologyWorkgiverSupply.gerund>buy at</ZheilTechnologyWorkgiverSupply.gerund>
+  
+   <ZheilTechnologyWorkgiverFuelSynth.label>synthesize a resource</ZheilTechnologyWorkgiverFuelSynth.label>
+  <ZheilTechnologyWorkgiverFuelSynth.verb>synthesize </ZheilTechnologyWorkgiverFuelSynth.verb>
+  <ZheilTechnologyWorkgiverFuelSynth.gerund>synthesize at</ZheilTechnologyWorkgiverFuelSynth.gerund>
 
 </LanguageData>

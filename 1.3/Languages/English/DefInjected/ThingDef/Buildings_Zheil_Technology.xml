@@ -6,5 +6,8 @@
 
   <ZheilSupplyStation.label>Supply station</ZheilSupplyStation.label>
   <ZheilSupplyStation.description>The supply station allows you to get food for silver and gold</ZheilSupplyStation.description>
+  
+  <ZheilFuelLegendaryStation.label>Fuel station</ZheilFuelLegendaryStation.label>
+  <ZheilFuelLegendaryStation.description>The station allows you to get fuel through synthesis with air</ZheilFuelLegendaryStation.description>
 
 </LanguageData>

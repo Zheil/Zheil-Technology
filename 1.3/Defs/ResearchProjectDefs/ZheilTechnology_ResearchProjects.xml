@@ -295,7 +295,7 @@
 		<defName>ZheilTechnologyLegendaryTech</defName>
 		<label>Legendary ZHEIL Tech</label>
 		<description>Learn the concept of Legendary Zheil Technology.</description>
-		<baseCost>500000</baseCost>
+		<baseCost>10000</baseCost>
 		<techLevel>Ultra</techLevel>
 		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
 		<requiredResearchFacilities>
@@ -307,6 +307,25 @@
 		<tab>ZheilTechnology</tab>
 		<researchViewX>6.00</researchViewX>
 		<researchViewY>0.15</researchViewY>
+	</ResearchProjectDef> 
+	
+		  <!-- Legendary Technology Zheil-->	
+	<ResearchProjectDef>
+		<defName>ZheilTechnologyLegendaryFuel</defName>
+		<label>Synthesis of infinite fuel</label>
+		<description>This technology will provide infinite fuel to the colony.</description>
+		<baseCost>50000</baseCost>
+		<techLevel>Ultra</techLevel>
+		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+		<requiredResearchFacilities>
+			<li>MultiAnalyzer</li>
+		</requiredResearchFacilities>
+		<prerequisites>
+			<li>ZheilTechnologyLegendaryTech</li>
+		</prerequisites>
+		<tab>ZheilTechnology</tab>
+		<researchViewX>6.00</researchViewX>
+		<researchViewY>0.80</researchViewY>
 	</ResearchProjectDef> 
 
 </Defs>
