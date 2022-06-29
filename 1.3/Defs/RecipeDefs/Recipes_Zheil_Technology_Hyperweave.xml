@@ -5,7 +5,7 @@
 		<label>Craft Hyperweave</label>
 		<description>Craft Hyperweave.</description>
 		<jobString>Crafting Hyperweave.</jobString>
-		<workAmount>1550</workAmount>
+		<workAmount>1050</workAmount>
 		<workSpeedStat>DrugSynthesisSpeed</workSpeedStat>
 		<effectWorking>Tailor</effectWorking>
 		<soundWorking>Recipe_Tailor</soundWorking>
@@ -17,7 +17,7 @@
 						<li>Chemfuel</li>
 					</thingDefs>
 				</filter>
-				<count>150</count>
+				<count>100</count>
 			</li>
 		</ingredients>
 		<fixedIngredientFilter>

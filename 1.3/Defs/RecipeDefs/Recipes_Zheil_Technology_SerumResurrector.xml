@@ -7,8 +7,8 @@
 		<jobString>Synthesizing Resurrector Serum.</jobString>
 		<workSkill>Cooking</workSkill>
 		<effectWorking>Cook</effectWorking>
-		<soundWorking>Recipe_CookMeal</soundWorking>
-		<workAmount>1550</workAmount>
+		<soundWorking>Cook</soundWorking>
+		<workAmount>2550</workAmount>
 		<workSpeedStat>CookSpeed</workSpeedStat>
 		<ingredients>
 			<li>

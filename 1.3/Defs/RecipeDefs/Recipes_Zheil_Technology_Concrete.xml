@@ -8,7 +8,7 @@
     <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
     <effectWorking>Cremate</effectWorking>
     <soundWorking>Recipe_Cremate</soundWorking>
-    <workAmount>5500</workAmount>
+    <workAmount>1800</workAmount>
     <recipeUsers>
       <li>ZheilStation</li>
     </recipeUsers>
@@ -19,7 +19,7 @@
             <li>Steel</li>
           </thingDefs>
         </filter>
-        <count>100</count>
+        <count>50</count>
       </li>
 	   <li>
         <filter>
@@ -27,7 +27,7 @@
             <li>Plasteel</li>
           </thingDefs>
         </filter>
-        <count>100</count>
+        <count>50</count>
       </li>
     </ingredients>
     <products>

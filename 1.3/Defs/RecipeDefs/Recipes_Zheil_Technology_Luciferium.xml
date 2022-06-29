@@ -5,7 +5,7 @@
 		<label>Produce luciferium</label>
 		<description>Produce 4 luciferium.</description>
 		<jobString>Producing Luciferium.</jobString>
-		<workAmount>1550</workAmount>
+		<workAmount>2850</workAmount>
 		<workSpeedStat>DrugSynthesisSpeed</workSpeedStat>
 		<effectWorking>Cook</effectWorking>
 		<soundWorking>Recipe_Drug</soundWorking>

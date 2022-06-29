@@ -8,7 +8,7 @@
 		<workSkill>Cooking</workSkill>
 		<effectWorking>Cook</effectWorking>
 		<soundWorking>Recipe_CookMeal</soundWorking>
-		<workAmount>950</workAmount>
+		<workAmount>1550</workAmount>
 		<workSpeedStat>CookSpeed</workSpeedStat>
 		<ingredients>
 			<li>

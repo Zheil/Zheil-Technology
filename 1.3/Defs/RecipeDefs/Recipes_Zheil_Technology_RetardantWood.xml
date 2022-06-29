@@ -8,7 +8,7 @@
     <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
     <effectWorking>Cremate</effectWorking>
     <soundWorking>Recipe_Cremate</soundWorking>
-    <workAmount>700</workAmount>
+    <workAmount>1000</workAmount>
     <recipeUsers>
       <li>ZheilStation</li>
     </recipeUsers>

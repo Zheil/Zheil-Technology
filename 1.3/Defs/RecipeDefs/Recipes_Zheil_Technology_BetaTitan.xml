@@ -8,7 +8,7 @@
     <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
     <effectWorking>Cremate</effectWorking>
     <soundWorking>Recipe_Cremate</soundWorking>
-    <workAmount>200</workAmount>
+    <workAmount>1000</workAmount>
     <recipeUsers>
       <li>ZheilStation</li>
     </recipeUsers>
@@ -19,7 +19,7 @@
             <li>Plasteel</li>
           </thingDefs>
         </filter>
-        <count>40</count>
+        <count>30</count>
       </li>
 	       <li>
         <filter>
@@ -37,7 +37,7 @@
 		</thingDefs>
 	</fixedIngredientFilter>
     <products>
-      <ZheilTechnologyBetaTitan>30</ZheilTechnologyBetaTitan>
+      <ZheilTechnologyBetaTitan>80</ZheilTechnologyBetaTitan>
     </products>
     <workSkill>Crafting</workSkill>
     <researchPrerequisite>ZheilTechnologyLightMaterials</researchPrerequisite>

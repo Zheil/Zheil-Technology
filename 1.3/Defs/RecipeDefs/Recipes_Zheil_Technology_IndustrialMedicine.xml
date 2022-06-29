@@ -7,8 +7,8 @@
 		<jobString>Synthesizing Industrial Medicine.</jobString>
 		<workSkill>Cooking</workSkill>
 		<effectWorking>Cook</effectWorking>
-		<soundWorking>Recipe_CookMeal</soundWorking>
-		<workAmount>550</workAmount>
+		<soundWorking>Cook</soundWorking>
+		<workAmount>850</workAmount>
 		<workSpeedStat>CookSpeed</workSpeedStat>
 		<ingredients>
 			<li>

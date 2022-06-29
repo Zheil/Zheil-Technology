@@ -5,7 +5,7 @@
 		<label>Produce Synthread</label>
 		<description>Produce Synthread.</description>
 		<jobString>Producing Synthread.</jobString>
-		<workAmount>1050</workAmount>
+		<workAmount>800</workAmount>
 		<workSpeedStat>DrugSynthesisSpeed</workSpeedStat>
 		<effectWorking>Tailor</effectWorking>
 		<soundWorking>Recipe_Tailor</soundWorking>
