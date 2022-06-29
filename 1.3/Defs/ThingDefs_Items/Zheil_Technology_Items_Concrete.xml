@@ -14,8 +14,8 @@
     <soundDrop>Stone_Drop</soundDrop>
 	<rotatable>false</rotatable>
     <statBases>
-      <MaxHitPoints>380</MaxHitPoints>
-      <Mass>4</Mass> 
+      <MaxHitPoints>800</MaxHitPoints>
+      <Mass>7</Mass> 
       <Flammability>0</Flammability>
 	  <MarketValue>4</MarketValue>
 	   <SharpDamageMultiplier>0.6</SharpDamageMultiplier>
@@ -37,10 +37,10 @@
       <soundMeleeHitSharp>MeleeHit_Stone</soundMeleeHitSharp>
       <soundMeleeHitBlunt>MeleeHit_Stone</soundMeleeHitBlunt>
       <statFactors>
-        <MaxHitPoints>3</MaxHitPoints>
+        <MaxHitPoints>6</MaxHitPoints>
         <Beauty>0</Beauty>
         <Flammability>0</Flammability>
-        <WorkToMake>1</WorkToMake>
+        <WorkToMake>5</WorkToMake>
         <WorkToBuild>3</WorkToBuild>
         <DoorOpenSpeed>0.3</DoorOpenSpeed>
       </statFactors>
