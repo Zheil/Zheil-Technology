@@ -7,7 +7,7 @@
 		<jobString>Synthesizing Glitterworld Medicine.</jobString>
 		<workSkill>Cooking</workSkill>
 		<effectWorking>Cook</effectWorking>
-		<soundWorking>Cook</soundWorking>
+		<soundWorking>Recipe_Drug</soundWorking>
 		<workAmount>1050</workAmount>
 		<workSpeedStat>CookSpeed</workSpeedStat>
 		<ingredients>
