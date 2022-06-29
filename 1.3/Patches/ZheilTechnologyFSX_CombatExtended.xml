@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Combat Extended</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <operations>
+
+        <li Class="PatchOperationAdd">
+          <xpath>Defs</xpath>
+          <value>                
+        
+        <!-- ==================== Recipes ========================== -->
+
+        <RecipeDef>
+          <defName>ZheilTechnologyMakeFSX</defName>
+          <label>make FSX x50</label>
+          <description>Craft x50 FSX.</description>
+          <jobString>Making Craft x50 FSX.</jobString>
+		  <workAmount>2550</workAmount>
+          <ingredients>
+            <li>
+              <filter>
+                <thingDefs>
+                  <li>Chemfuel</li>
+                </thingDefs>
+              </filter>
+              <count>60</count>
+            </li>
+          </ingredients>
+          <fixedIngredientFilter>
+            <thingDefs>
+              <li>Chemfuel</li>
+            </thingDefs>
+          </fixedIngredientFilter>
+          <products>
+            <Prometheum>50</Prometheum>
+          </products>
+		  <recipeUsers>
+			<li>ZheilStation</li>
+		</recipeUsers>
+		<researchPrerequisite>ZheilTechnologyBasicTech</researchPrerequisite>
+        </RecipeDef>
+		
+	
+          </value>
+        </li>
+
+      </operations>
+    </match>
+  </Operation>
+
+</Patch>
