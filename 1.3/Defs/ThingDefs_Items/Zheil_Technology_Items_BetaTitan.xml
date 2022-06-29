@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ThingDef ParentName="ResourceVerbBase">
+    <defName>ZheilTechnologyBetaTitan</defName>
+    <label>Beta-Titan</label>
+    <description>Beta-Titan.</description>
+    <graphicData>
+      <texPath>Things/Item/Resource/StoneBlocks</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+	  <color>(240,107,255)</color>
+    </graphicData>
+    <equippedAngleOffset>-20</equippedAngleOffset>
+    <soundInteract>Stone_Drop</soundInteract>
+    <soundDrop>Stone_Drop</soundDrop>
+	<rotatable>false</rotatable>
+    <statBases>
+      <MaxHitPoints>80</MaxHitPoints>
+      <Mass>0.03</Mass> 
+      <Flammability>0</Flammability>
+	  <MarketValue>10</MarketValue>
+	  <SharpDamageMultiplier>0.6</SharpDamageMultiplier>
+      <BluntDamageMultiplier>1.0</BluntDamageMultiplier>
+    </statBases>
+	 <thingCategories>
+      <li>StoneBlocks</li>
+    </thingCategories>
+	<useHitPoints>false</useHitPoints>
+    <stuffProps>
+      <stuffAdjective>Concrete</stuffAdjective>
+      <categories>
+        <li>Stony</li>
+      </categories>
+      <commonality>0.85</commonality>
+      <color>(240,107,255)</color>
+      <constructEffect>ConstructWood</constructEffect>
+      <soundImpactStuff>BulletImpact_Ground</soundImpactStuff>
+      <soundMeleeHitSharp>MeleeHit_Stone</soundMeleeHitSharp>
+      <soundMeleeHitBlunt>MeleeHit_Stone</soundMeleeHitBlunt>
+      <statFactors>
+        <MaxHitPoints>0.6</MaxHitPoints>
+        <Beauty>1</Beauty>
+        <Flammability>0</Flammability>
+        <WorkToMake>0.5</WorkToMake>
+        <WorkToBuild>0.5</WorkToBuild>
+        <DoorOpenSpeed>1.5</DoorOpenSpeed>
+      </statFactors>
+    </stuffProps>
+    <isTechHediff>true</isTechHediff>
+    <techHediffsTags>
+      <li>Poor</li>
+    </techHediffsTags>
+    <tools>
+      <li>
+        <label>log</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>10</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+    </tools>
+  </ThingDef>
+  
+</Defs>

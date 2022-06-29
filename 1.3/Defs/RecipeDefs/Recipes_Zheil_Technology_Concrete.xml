@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<RecipeDef>
+    <defName>ZheilTechnologyMakeConcrete</defName>
+    <label>make Concrete</label>
+    <description>Make Concrete.</description>
+    <jobString>Making Concrete.</jobString>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <effectWorking>Cremate</effectWorking>
+    <soundWorking>Recipe_Cremate</soundWorking>
+    <workAmount>700</workAmount>
+    <recipeUsers>
+      <li>ZheilStation</li>
+    </recipeUsers>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Steel</li>
+          </thingDefs>
+        </filter>
+        <count>100</count>
+      </li>
+    </ingredients>
+    <products>
+      <ZheilTechnologyConcrete>100</ZheilTechnologyConcrete>
+    </products>
+    <workSkill>Crafting</workSkill>
+    <researchPrerequisite>ZheilTechnologyConcrete</researchPrerequisite>
+  </RecipeDef>
+
+
+</Defs>

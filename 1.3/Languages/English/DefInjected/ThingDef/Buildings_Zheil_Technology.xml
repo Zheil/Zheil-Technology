@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <ZheilStation.label>Workstation ZHEIL</ZheilStation.label>
+  <ZheilStation.description>ZHEIL station allows you to access the most unique technologies</ZheilStation.description>
+
+  <ZheilSupplyStation.label>Supply station</ZheilSupplyStation.label>
+  <ZheilSupplyStation.description>The supply station allows you to get food for silver and gold</ZheilSupplyStation.description>
+
+</LanguageData>

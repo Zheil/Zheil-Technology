@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <RecipeDef>
+		<defName>ZheilTechnologyMakeHyperweave</defName>
+		<label>Craft Hyperweave</label>
+		<description>Craft Hyperweave.</description>
+		<jobString>Crafting Hyperweave.</jobString>
+		<workAmount>1550</workAmount>
+		<workSpeedStat>DrugSynthesisSpeed</workSpeedStat>
+		<effectWorking>Tailor</effectWorking>
+		<soundWorking>Recipe_Tailor</soundWorking>
+		<workSkillLearnFactor>0.5</workSkillLearnFactor>
+		<ingredients>					
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Chemfuel</li>
+					</thingDefs>
+				</filter>
+				<count>150</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Chemfuel</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<skillRequirements>
+			<Crafting>10</Crafting>
+		</skillRequirements>
+		<workSkill>Intellectual</workSkill>
+		<products>
+			<Hyperweave>50</Hyperweave>
+		</products>
+		<recipeUsers>
+			<li>ZheilStation</li>
+		</recipeUsers>
+		<researchPrerequisite>ZheilTechnologyHyperweave</researchPrerequisite>
+  </RecipeDef>
+</Defs>

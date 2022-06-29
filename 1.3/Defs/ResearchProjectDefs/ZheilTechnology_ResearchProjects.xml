@@ -1,0 +1,312 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+ <!--SupplyStation Tech-->
+	<ResearchProjectDef>
+		<defName>ZheilTechnologySupplyStation</defName>
+		<label>Supply Station</label>
+		<description>Allows you to get Supply Station and buy resources.</description>
+		<baseCost>400</baseCost>
+		<techLevel>Industrial</techLevel>
+		<tab>ZheilTechnology</tab>
+		<prerequisites>
+			<li>Electricity</li>
+		</prerequisites>
+		<researchViewX>0.00</researchViewX>
+		<researchViewY>0.80</researchViewY>
+	</ResearchProjectDef>
+
+ <!--Basic Tech-->
+	<ResearchProjectDef>
+		<defName>ZheilTechnologyBasicTech</defName>
+		<label>Basic ZHEIL Tech</label>
+		<description>Learn the concept of Basic Zheil Technology.</description>
+		<baseCost>500</baseCost>
+		<techLevel>Industrial</techLevel>
+		<tab>ZheilTechnology</tab>
+		<prerequisites>
+			<li>Electricity</li>
+		</prerequisites>
+		<researchViewX>0.00</researchViewX>
+		<researchViewY>0.15</researchViewY>
+	</ResearchProjectDef> 	
+
+
+ <!--Resist Wood Tech-->
+	<ResearchProjectDef>
+		<defName>ZheilTechnologyRetardantWoodTech</defName>
+		<label>Fire Retardant Wood</label>
+		<description>Allows you to make Fire Retardant Wood.</description>
+		<baseCost>400</baseCost>
+		<techLevel>Industrial</techLevel>
+		<tab>ZheilTechnology</tab>
+		<prerequisites>
+			<li>ZheilTechnologyBasicTech</li>
+		</prerequisites>
+		<researchViewX>1.00</researchViewX>
+		<researchViewY>0.80</researchViewY>
+	</ResearchProjectDef> 	
+
+ <!--Industrial Medkit Tech-->
+	<ResearchProjectDef>
+		<defName>ZheilTechnologyIndustrialMedicine</defName>
+		<label>Industrial Medicine</label>
+		<description>Allows you to make Industrial Medicine.</description>
+		<baseCost>400</baseCost>
+		<techLevel>Industrial</techLevel>
+		<tab>ZheilTechnology</tab>
+		<prerequisites>
+			<li>ZheilTechnologyBasicTech</li>
+		</prerequisites>
+		<researchViewX>1.00</researchViewX>
+		<researchViewY>1.50</researchViewY>
+	</ResearchProjectDef> 	
+
+ <!--Concrete Tech-->
+	<ResearchProjectDef>
+		<defName>ZheilTechnologyConcrete</defName>
+		<label>Concrete</label>
+		<description>Allows you to make Concrete.</description>
+		<baseCost>500</baseCost>
+		<techLevel>Industrial</techLevel>
+		<tab>ZheilTechnology</tab>
+		<prerequisites>
+			<li>ZheilTechnologyBasicTech</li>
+		</prerequisites>
+		<researchViewX>1.00</researchViewX>
+		<researchViewY>2.00</researchViewY>
+	</ResearchProjectDef> 
+
+  <!--Advanced Technology Zheil-->	
+	<ResearchProjectDef>
+		<defName>ZheilTechnologyAdvancedTech</defName>
+		<label>Advanced ZHEIL Tech</label>
+		<description>Learn the concept of Advanced Zheil Technology.</description>
+		<baseCost>2500</baseCost>
+		<techLevel>Spacer</techLevel>
+		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+		<requiredResearchFacilities>
+			<li>MultiAnalyzer</li>
+		</requiredResearchFacilities>
+		<prerequisites>
+			<li>ZheilTechnologyBasicTech</li>
+		</prerequisites>
+		<tab>ZheilTechnology</tab>
+		<researchViewX>2.00</researchViewX>
+		<researchViewY>0.15</researchViewY>
+	</ResearchProjectDef> 
+	
+  <!--Neutroamine tech-->	
+	<ResearchProjectDef>
+		<defName>ZheilTechnologyNeutroamine</defName>
+		<label>Neutroamine</label>
+		<description>Allows you to synthesize neutroamine.</description>
+		<baseCost>1000</baseCost>
+		<techLevel>Spacer</techLevel>
+		<prerequisites>
+			<li>ZheilTechnologyAdvancedTech</li>
+		</prerequisites>
+		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+		<tab>ZheilTechnology</tab>
+		<researchViewX>3.00</researchViewX>
+		<researchViewY>0.80</researchViewY>
+	</ResearchProjectDef>
+	
+  <!--Luciferium Tech-->
+	<ResearchProjectDef>
+		<defName>ZheilTechnologyLuciferium</defName>
+		<label>Luciferium</label>
+		<description>Allows you to synthesize Luciferium.</description>
+		<baseCost>2500</baseCost>
+		<techLevel>Spacer</techLevel>
+		<prerequisites>
+			<li>ZheilTechnologyAdvancedTech</li>
+		</prerequisites>
+		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+		<requiredResearchFacilities>
+			<li>MultiAnalyzer</li>
+		</requiredResearchFacilities>
+		<tab>ZheilTechnology</tab>
+		<researchViewX>3.00</researchViewX>
+		<researchViewY>1.30</researchViewY>
+	</ResearchProjectDef>	
+	
+	
+	 <!--Advanced Medkit Tech == Glitterworld medicine-->
+	<ResearchProjectDef>
+		<defName>ZheilTechnologyGlitterworldMedicine</defName>
+		<label>Glitterworld Medicine</label>
+		<description>Allows you to make Glitterworld Medicine.</description>
+		<baseCost>2000</baseCost>
+		<techLevel>Spacer</techLevel>
+		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+		<requiredResearchFacilities>
+			<li>MultiAnalyzer</li>
+		</requiredResearchFacilities>
+		<tab>ZheilTechnology</tab>
+		<prerequisites>
+			<li>ZheilTechnologyAdvancedTech</li>
+		</prerequisites>
+		<researchViewX>3.00</researchViewX>
+		<researchViewY>1.80</researchViewY>
+	</ResearchProjectDef> 	
+	
+	
+	 <!--Light materials-->
+	<ResearchProjectDef>
+		<defName>ZheilTechnologyLightMaterials</defName>
+		<label>Light Materials</label>
+		<description>Allows you to make Light Materials.</description>
+		<baseCost>1000</baseCost>
+		<techLevel>Spacer</techLevel>
+		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+		<requiredResearchFacilities>
+			<li>MultiAnalyzer</li>
+		</requiredResearchFacilities>
+		<tab>ZheilTechnology</tab>
+		<prerequisites>
+			<li>ZheilTechnologyAdvancedTech</li>
+		</prerequisites>
+		<researchViewX>3.00</researchViewX>
+		<researchViewY>2.50</researchViewY>
+	</ResearchProjectDef> 
+	
+	
+	<!--Synthread-->
+	<ResearchProjectDef>
+		<defName>ZheilTechnologySynthread</defName>
+		<label>Synthread</label>
+		<description>Allows you to make Synthread.</description>
+		<baseCost>1500</baseCost>
+		<techLevel>Spacer</techLevel>
+		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+		<requiredResearchFacilities>
+			<li>MultiAnalyzer</li>
+		</requiredResearchFacilities>
+		<tab>ZheilTechnology</tab>
+		<prerequisites>
+			<li>ZheilTechnologyAdvancedTech</li>
+		</prerequisites>
+		<researchViewX>3.00</researchViewX>
+		<researchViewY>3.10</researchViewY>
+	</ResearchProjectDef> 
+
+
+  <!-- Ultra Technology Zheil-->	
+	<ResearchProjectDef>
+		<defName>ZheilTechnologyUltraTech</defName>
+		<label>Ultra ZHEIL Tech</label>
+		<description>Learn the concept of Ultra Zheil Technology.</description>
+		<baseCost>3000</baseCost>
+		<techLevel>Ultra</techLevel>
+		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+		<requiredResearchFacilities>
+			<li>MultiAnalyzer</li>
+		</requiredResearchFacilities>
+		<prerequisites>
+			<li>ZheilTechnologyAdvancedTech</li>
+		</prerequisites>
+		<tab>ZheilTechnology</tab>
+		<researchViewX>4.00</researchViewX>
+		<researchViewY>0.15</researchViewY>
+	</ResearchProjectDef> 
+	
+	
+		<!--Healer serum tech -->	
+	<ResearchProjectDef>
+		<defName>ZheilTechnologySerumHealer</defName>
+		<label>Serum Healer</label>
+		<description>Allows you to make Serum Healer.</description>
+		<baseCost>5500</baseCost>
+		<techLevel>Ultra</techLevel>
+		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+		<requiredResearchFacilities>
+			<li>MultiAnalyzer</li>
+		</requiredResearchFacilities>
+		<prerequisites>
+			<li>ZheilTechnologyUltraTech</li>
+		</prerequisites>
+		<tab>ZheilTechnology</tab>
+		<researchViewX>5.00</researchViewX>
+		<researchViewY>0.80</researchViewY>
+	</ResearchProjectDef> 
+	
+	  <!--Serum Resurrector tech -->	
+	<ResearchProjectDef>
+		<defName>ZheilTechnologySerumResurrector</defName>
+		<label>Serum Resurrector</label>
+		<description>Allows you to make Serum Resurrector.</description>
+		<baseCost>8500</baseCost>
+		<techLevel>Ultra</techLevel>
+		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+		<requiredResearchFacilities>
+			<li>MultiAnalyzer</li>
+		</requiredResearchFacilities>
+		<prerequisites>
+			<li>ZheilTechnologyUltraTech</li>
+		</prerequisites>
+		<tab>ZheilTechnology</tab>
+		<researchViewX>5.00</researchViewX>
+		<researchViewY>1.50</researchViewY>
+	</ResearchProjectDef> 
+	
+  <!--Ai core tech-->	
+	<ResearchProjectDef>
+		<defName>ZheilTechnologyAICraft</defName>
+		<label>Craft AI core</label>
+		<description>Allows you to make AI core.</description>
+		<baseCost>4500</baseCost>
+		<techLevel>Ultra</techLevel>
+		<prerequisites>
+			<li>ZheilTechnologyUltraTech</li>
+		</prerequisites>
+		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+		<requiredResearchFacilities>
+			<li>MultiAnalyzer</li>
+		</requiredResearchFacilities>
+		<tab>ZheilTechnology</tab>
+		<researchViewX>5.00</researchViewX>
+		<researchViewY>2.20</researchViewY>
+	</ResearchProjectDef> 
+	
+	
+		<!--Hyperweave-->
+	<ResearchProjectDef>
+		<defName>ZheilTechnologyHyperweave</defName>
+		<label>Hyperweave</label>
+		<description>Allows you to make Hyperweave.</description>
+		<baseCost>3500</baseCost>
+		<techLevel>Ultra</techLevel>
+		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+		<requiredResearchFacilities>
+			<li>MultiAnalyzer</li>
+		</requiredResearchFacilities>
+		<tab>ZheilTechnology</tab>
+		<prerequisites>
+			<li>ZheilTechnologyUltraTech</li>
+		</prerequisites>
+		<researchViewX>5.00</researchViewX>
+		<researchViewY>2.70</researchViewY>
+	</ResearchProjectDef> 
+	
+	
+	  <!-- Legendary Technology Zheil-->	
+	<ResearchProjectDef>
+		<defName>ZheilTechnologyLegendaryTech</defName>
+		<label>Legendary ZHEIL Tech</label>
+		<description>Learn the concept of Legendary Zheil Technology.</description>
+		<baseCost>500000</baseCost>
+		<techLevel>Ultra</techLevel>
+		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+		<requiredResearchFacilities>
+			<li>MultiAnalyzer</li>
+		</requiredResearchFacilities>
+		<prerequisites>
+			<li>ZheilTechnologyUltraTech</li>
+		</prerequisites>
+		<tab>ZheilTechnology</tab>
+		<researchViewX>6.00</researchViewX>
+		<researchViewY>0.15</researchViewY>
+	</ResearchProjectDef> 
+
+</Defs>

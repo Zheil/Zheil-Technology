@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <ZheilTechnologySupplyStation.label>SupplyStation</ZheilTechnologySupplyStation.label>
+  <ZheilTechnologySupplyStation.description>Unlocks Supply Station.</ZheilTechnologySupplyStation.description>
+
+  <ZheilTechnologyBasicTech.label>Core technologies ZHEIL</ZheilTechnologyBasicTech.label>
+  <ZheilTechnologyBasicTech.description>Unlocks the basic ZHEIL technology and allows you to build a ZHEIL technology machine.</ZheilTechnologyBasicTech.description>
+  
+  <ZheilTechnologyAdvancedTech.label>Advanced technologies ZHEIL</ZheilTechnologyAdvancedTech.label>
+  <ZheilTechnologyAdvancedTech.description>Unlocks advanced ZHEIL technologies.</ZheilTechnologyAdvancedTech.description>
+
+  <ZheilTechnologyAICraft.label>AI core</ZheilTechnologyAICraft.label>
+  <ZheilTechnologyAICraft.description>Unlocks the ability to create an AI core on the ZHEIL machine.</ZheilTechnologyAICraft.description>
+
+  <ZheilTechnologyNeutroamine.label>Neutroamine</ZheilTechnologyNeutroamine.label>
+  <ZheilTechnologyNeutroamine.description>Allows the synthesis of Neutroamine.</ZheilTechnologyNeutroamine.description>
+  
+  <ZheilTechnologyLuciferium.label>Luciferium</ZheilTechnologyLuciferium.label>
+  <ZheilTechnologyLuciferium.description>Allows you to synthesize Luciferium.</ZheilTechnologyLuciferium.description>
+  
+  
+  <ZheilTechnologyRetardantWoodTech.label>Retardant wood</ZheilTechnologyRetardantWoodTech.label>
+  <ZheilTechnologyRetardantWoodTech.description>Allows you to make Retardant wood</ZheilTechnologyRetardantWoodTech.description>
+  
+  
+  <ZheilTechnologyIndustrialMedicine.label>Medicine</ZheilTechnologyIndustrialMedicine.label>
+  <ZheilTechnologyIndustrialMedicine.description>Allows you to make Medicine.</ZheilTechnologyIndustrialMedicine.description>
+
+  <ZheilTechnologyConcrete.label>Concrete</ZheilTechnologyConcrete.label>
+  <ZheilTechnologyConcrete.description>Allows you to make blocks of Concrete.</ZheilTechnologyConcrete.description>
+
+
+
+  <ZheilTechnologyGlitterworldMedicine.label>Glitterworld medicine</ZheilTechnologyGlitterworldMedicine.label>
+  <ZheilTechnologyGlitterworldMedicine.description>Allows you to make glitterworld medicine.</ZheilTechnologyGlitterworldMedicine.description>
+  
+  <ZheilTechnologyLightMaterials.label>LightMaterials</ZheilTechnologyLightMaterials.label>
+  <ZheilTechnologyLightMaterials.description>Allows you to make light materials.</ZheilTechnologyLightMaterials.description>
+  
+  <ZheilTechnologySynthread.label>Synthread</ZheilTechnologySynthread.label>
+  <ZheilTechnologySynthread.description>Allows you to make synthread.</ZheilTechnologySynthread.description>
+  
+  
+  <ZheilTechnologyUltraTech.label>Ultra technologies ZHEIL</ZheilTechnologyUltraTech.label>
+  <ZheilTechnologyUltraTech.description>Ultra technologies ZHEIL.</ZheilTechnologyUltraTech.description>
+
+
+  <ZheilTechnologySerumResurrector.label>Serum Resurrector</ZheilTechnologySerumResurrector.label>
+  <ZheilTechnologySerumResurrector.description>Allows you to make serum resurrector.</ZheilTechnologySerumResurrector.description>
+
+  <ZheilTechnologySerumHealer.label>Serum healer</ZheilTechnologySerumHealer.label>
+  <ZheilTechnologySerumHealer.description>Allows you to make serum healer.</ZheilTechnologySerumHealer.description>
+  
+  <ZheilTechnologyHyperweave.label>Hyperweave</ZheilTechnologyHyperweave.label>
+  <ZheilTechnologyHyperweave.description>Allows you to make hyperweave.</ZheilTechnologyHyperweave.description>
+  
+  <ZheilTechnologyLegendaryTech.label>Legendary ZHEIL Technologies</ZheilTechnologyLegendaryTech.label>
+  <ZheilTechnologyLegendaryTech.description>Legendary ZHEIL technologies. Crown of Development.</ZheilTechnologyLegendaryTech.description>
+  
+
+
+</LanguageData>

@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <ZheilTechnologyWorkgiver.label>создать ресурс</ZheilTechnologyWorkgiver.label>
+  <ZheilTechnologyWorkgiver.verb>создать</ZheilTechnologyWorkgiver.verb>
+  <ZheilTechnologyWorkgiver.gerund>создать на</ZheilTechnologyWorkgiver.gerund>
+
+  <ZheilTechnologyWorkgiverSupply.label>купить ресурс</ZheilTechnologyWorkgiverSupply.label>
+  <ZheilTechnologyWorkgiverSupply.verb>купить</ZheilTechnologyWorkgiverSupply.verb>
+  <ZheilTechnologyWorkgiverSupply.gerund>купить на</ZheilTechnologyWorkgiverSupply.gerund>
+
+</LanguageData>

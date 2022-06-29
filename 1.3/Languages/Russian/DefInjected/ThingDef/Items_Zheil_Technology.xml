@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <ZheilTechnologyUnfinishedAICore.label>Незаконченное ИИ ядро</ZheilTechnologyUnfinishedAICore.label>
+  <ZheilTechnologyUnfinishedAICore.description>Ядро ИИ в разработке.</ZheilTechnologyUnfinishedAICore.description>
+  
+    <ZheilTechnologyUnfinishedAICoreTechProf.label>Незаконченное субличность учителя</ZheilTechnologyUnfinishedAICoreTechProf.label>
+  <ZheilTechnologyUnfinishedAICoreTechProf.description>Ядро субличности учителя в разработке.</ZheilTechnologyUnfinishedAICoreTechProf.description>
+
+  <RetardantWoodLog.label>Огнеупорная древесина</RetardantWoodLog.label>
+  <RetardantWoodLog.description>Огнеупорная древесина.</RetardantWoodLog.description>
+  <RetardantWoodLog.stuffProps.stuffAdjective>Огнеупорная древесина</RetardantWoodLog.stuffProps.stuffAdjective>
+  
+  <ZheilTechnologyConcrete.label>Бетон</ZheilTechnologyConcrete.label>
+  <ZheilTechnologyConcrete.description>Бетон.</ZheilTechnologyConcrete.description>
+  <ZheilTechnologyConcrete.stuffProps.stuffAdjective>Бетона</ZheilTechnologyConcrete.stuffProps.stuffAdjective>
+  
+  <ZheilTechnologyBetaTitan.label>Бета-Титан</ZheilTechnologyBetaTitan.label>
+  <ZheilTechnologyBetaTitan.description>Бета-Титан.</ZheilTechnologyBetaTitan.description>
+  <ZheilTechnologyBetaTitan.stuffProps.stuffAdjective>Бета-Титана</ZheilTechnologyBetaTitan.stuffProps.stuffAdjective>
+  
+</LanguageData>

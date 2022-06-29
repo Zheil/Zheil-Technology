@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <ZheilStation.label>Станция ZHEIL</ZheilStation.label>
+  <ZheilStation.description>Станция ZHEIL позволяет получить доступ к самым уникальным технологиям</ZheilStation.description>
+
+  <ZheilSupplyStation.label>Станция снабжения</ZheilSupplyStation.label>
+  <ZheilSupplyStation.description>Станция снабжения позволяет получать продовольствия за серебро и золото</ZheilSupplyStation.description>
+
+</LanguageData>

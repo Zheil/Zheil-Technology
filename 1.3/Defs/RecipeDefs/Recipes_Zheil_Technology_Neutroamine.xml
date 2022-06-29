@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<RecipeDef>
+		<defName>ZheilTechnologyMakeNeutroamine</defName>
+		<label>make Neutroamine</label>
+		<description>Make a bunch of Neutroamine</description>
+		<jobString>Synthesizing Neutroamine.</jobString>
+		<workSkill>Cooking</workSkill>
+		<effectWorking>Cook</effectWorking>
+		<soundWorking>Recipe_CookMeal</soundWorking>
+		<workAmount>950</workAmount>
+		<workSpeedStat>CookSpeed</workSpeedStat>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>MedicineHerbal</li>
+					</thingDefs>
+				</filter>
+				<count>5</count>
+			</li>
+
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Chemfuel</li>
+					</thingDefs>
+				</filter>
+				<count>10</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>MedicineHerbal</li>
+				<li>Chemfuel</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<Neutroamine>10</Neutroamine>
+		</products>
+		<recipeUsers>
+			<li>ZheilStation</li>
+		</recipeUsers>
+		<researchPrerequisite>ZheilTechnologyNeutroamine</researchPrerequisite>
+		<skillRequirements>
+			<Cooking>6</Cooking>
+		</skillRequirements>
+	</RecipeDef>
+
+</Defs>

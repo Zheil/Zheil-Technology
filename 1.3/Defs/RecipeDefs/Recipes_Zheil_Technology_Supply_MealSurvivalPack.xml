@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<RecipeDef>
+		<defName>ZheilTechnologyMakeSupplyMealSurvivalPackX1</defName>
+		<label>Buy a Packaged survival meal x1</label>
+		<description>Buy a Packaged survival meal x1</description>
+		<jobString>Buy Packaged survival meal x1.</jobString>
+		<workSkill>Cooking</workSkill>
+		<requiredGiverWorkType>Cooking</requiredGiverWorkType>
+		<effectWorking>Cook</effectWorking>
+		<soundWorking>Recipe_CookMeal</soundWorking>
+		<workAmount>5</workAmount>
+		<workSpeedStat>CookSpeed</workSpeedStat>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Silver</li>
+					</thingDefs>
+				</filter>
+				<count>2.5</count>
+			</li>
+
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Silver</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<MealSurvivalPack>1</MealSurvivalPack>
+		</products>
+		<recipeUsers>
+			<li>ZheilSupplyStation</li>
+		</recipeUsers>
+		<researchPrerequisite>ZheilTechnologySupplyStation</researchPrerequisite>
+	</RecipeDef>
+
+	<RecipeDef>
+		<defName>ZheilTechnologyMakeSupplyMealSurvivalPackX5</defName>
+		<label>make a Packaged survival meal x5</label>
+		<description>Make a Packaged survival meal x5</description>
+		<jobString>Make Packaged survival meal.</jobString>
+		<workSkill>Cooking</workSkill>
+		<requiredGiverWorkType>Cooking</requiredGiverWorkType>
+		<effectWorking>Cook</effectWorking>
+		<soundWorking>Recipe_CookMeal</soundWorking>
+		<workAmount>25</workAmount>
+		<workSpeedStat>CookSpeed</workSpeedStat>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Silver</li>
+					</thingDefs>
+				</filter>
+				<count>12.5</count>
+			</li>
+
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Silver</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<MealSurvivalPack>5</MealSurvivalPack>
+		</products>
+		<recipeUsers>
+			<li>ZheilSupplyStation</li>
+		</recipeUsers>
+		<researchPrerequisite>ZheilTechnologySupplyStation</researchPrerequisite>
+	</RecipeDef>
+
+</Defs>

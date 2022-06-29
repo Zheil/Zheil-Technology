@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<WorkGiverDef>
+		<defName>ZheilTechnologyWorkgiver</defName>
+		<label>make a resource</label>
+		<giverClass>WorkGiver_DoBill</giverClass>
+		<workType>Crafting</workType>
+		<fixedBillGiverDefs>
+			<li>ZheilStation</li>
+		</fixedBillGiverDefs>
+		<verb>make</verb>
+		<gerund>make at</gerund>
+		<requiredCapacities>
+			<li>Manipulation</li>
+		</requiredCapacities>
+		<prioritizeSustains>true</prioritizeSustains>
+	</WorkGiverDef>
+	
+	<WorkGiverDef>
+		<defName>ZheilTechnologyWorkgiverSupply</defName>
+		<label>buy a resource</label>
+		<giverClass>WorkGiver_DoBill</giverClass>
+		<priorityInType>100</priorityInType>
+		<workType>Cooking</workType>
+		<fixedBillGiverDefs>
+			<li>ZheilSupplyStation</li>
+		</fixedBillGiverDefs>
+		<verb>buy</verb>
+		<gerund>buy at</gerund>
+		<requiredCapacities>
+			<li>Manipulation</li>
+		</requiredCapacities>
+		<prioritizeSustains>true</prioritizeSustains>
+	</WorkGiverDef>
+	
+</Defs>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<RecipeDef>
+    <defName>ZheilTechnologyMakeRetardantWood</defName>
+    <label>make Retardant Wood</label>
+    <description>Make Retardant Wood.</description>
+    <jobString>Making Retardant Wood.</jobString>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <effectWorking>Cremate</effectWorking>
+    <soundWorking>Recipe_Cremate</soundWorking>
+    <workAmount>700</workAmount>
+    <recipeUsers>
+      <li>ZheilStation</li>
+    </recipeUsers>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>WoodLog</li>
+          </thingDefs>
+        </filter>
+        <count>100</count>
+      </li>
+    </ingredients>
+    <products>
+      <RetardantWoodLog>100</RetardantWoodLog>
+    </products>
+    <workSkill>Crafting</workSkill>
+    <researchPrerequisite>ZheilTechnologyRetardantWoodTech</researchPrerequisite>
+  </RecipeDef>
+
+
+</Defs>

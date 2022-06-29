@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<RecipeDef>
+    <defName>ZheilTechnologyMakeBetaTitan</defName>
+    <label>make BetaTitan</label>
+    <description>Make BetaTitan.</description>
+    <jobString>Making BetaTitan.</jobString>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <effectWorking>Cremate</effectWorking>
+    <soundWorking>Recipe_Cremate</soundWorking>
+    <workAmount>200</workAmount>
+    <recipeUsers>
+      <li>ZheilStation</li>
+    </recipeUsers>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Plasteel</li>
+          </thingDefs>
+        </filter>
+        <count>40</count>
+      </li>
+	       <li>
+        <filter>
+          <thingDefs>
+            <li>Steel</li>
+          </thingDefs>
+        </filter>
+        <count>30</count>
+      </li>
+    </ingredients>
+	<fixedIngredientFilter>
+		<thingDefs>
+			<li>Plasteel</li>
+			<li>Steel</li>
+		</thingDefs>
+	</fixedIngredientFilter>
+    <products>
+      <ZheilTechnologyBetaTitan>30</ZheilTechnologyBetaTitan>
+    </products>
+    <workSkill>Crafting</workSkill>
+    <researchPrerequisite>ZheilTechnologyLightMaterials</researchPrerequisite>
+  </RecipeDef>
+
+
+</Defs>

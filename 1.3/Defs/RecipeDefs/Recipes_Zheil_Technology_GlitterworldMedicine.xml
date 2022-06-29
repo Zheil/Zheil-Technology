@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<RecipeDef>
+		<defName>ZheilTechnologyMakeGlitterworldMedicine</defName>
+		<label>make an Glitterworld Medicine</label>
+		<description>Make an Glitterworld Medicine</description>
+		<jobString>Synthesizing Glitterworld Medicine.</jobString>
+		<workSkill>Cooking</workSkill>
+		<effectWorking>Cook</effectWorking>
+		<soundWorking>Recipe_CookMeal</soundWorking>
+		<workAmount>1050</workAmount>
+		<workSpeedStat>CookSpeed</workSpeedStat>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Neutroamine</li>
+					</thingDefs>
+				</filter>
+				<count>80</count>
+			</li>
+
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Neutroamine</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<MedicineUltratech>1</MedicineUltratech>
+		</products>
+		<recipeUsers>
+			<li>ZheilStation</li>
+		</recipeUsers>
+		<researchPrerequisite>ZheilTechnologyGlitterworldMedicine</researchPrerequisite>
+	</RecipeDef>
+
+</Defs>

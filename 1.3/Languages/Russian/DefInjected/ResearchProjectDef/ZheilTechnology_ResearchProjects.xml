@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <ZheilTechnologySupplyStation.label>Станция продовольствия</ZheilTechnologySupplyStation.label>
+  <ZheilTechnologySupplyStation.description>Открывает станцию продовольствия.</ZheilTechnologySupplyStation.description>
+
+  <ZheilTechnologyBasicTech.label>Базовые технологии ZHEIL</ZheilTechnologyBasicTech.label>
+  <ZheilTechnologyBasicTech.description>Открывает базовую технологию ZHEIL и позволяет строить технологический станок ZHEIL.</ZheilTechnologyBasicTech.description>
+  
+  <ZheilTechnologyAdvancedTech.label>Продвинутые технологии ZHEIL</ZheilTechnologyAdvancedTech.label>
+  <ZheilTechnologyAdvancedTech.description>Открывает продвинутые технологии ZHEIL.</ZheilTechnologyAdvancedTech.description>
+
+  <ZheilTechnologyAICraft.label>Ядро ИИ</ZheilTechnologyAICraft.label>
+  <ZheilTechnologyAICraft.description>Открывает возможность создавать ядро ИИ на станке ZHEIL.</ZheilTechnologyAICraft.description>
+
+  <ZheilTechnologyNeutroamine.label>Нейроамин</ZheilTechnologyNeutroamine.label>
+  <ZheilTechnologyNeutroamine.description>Позволяет синтезировать Нейтроамин.</ZheilTechnologyNeutroamine.description>
+  
+  <ZheilTechnologyLuciferium.label>Люциферий</ZheilTechnologyLuciferium.label>
+  <ZheilTechnologyLuciferium.description>Позволяет синтезировать Люциферий.</ZheilTechnologyLuciferium.description>
+  
+  
+  
+  <ZheilTechnologyRetardantWoodTech.label>Огнеупорная древесина</ZheilTechnologyRetardantWoodTech.label>
+  <ZheilTechnologyRetardantWoodTech.description>Позволяет создавать Огнеупорную древесину.</ZheilTechnologyRetardantWoodTech.description>
+  
+  
+  <ZheilTechnologyIndustrialMedicine.label>Медикаменты</ZheilTechnologyIndustrialMedicine.label>
+  <ZheilTechnologyIndustrialMedicine.description>Позволяет готовить Медикаменты.</ZheilTechnologyIndustrialMedicine.description>
+
+  <ZheilTechnologyConcrete.label>Бетон</ZheilTechnologyConcrete.label>
+  <ZheilTechnologyConcrete.description>Позволяет изготавливать блоки Бетона.</ZheilTechnologyConcrete.description>
+
+
+
+  <ZheilTechnologyGlitterworldMedicine.label>Передовые медикаменты</ZheilTechnologyGlitterworldMedicine.label>
+  <ZheilTechnologyGlitterworldMedicine.description>Позволяет готовить Передовые медикаменты.</ZheilTechnologyGlitterworldMedicine.description>
+  
+  <ZheilTechnologyLightMaterials.label>Легкие материалы</ZheilTechnologyLightMaterials.label>
+  <ZheilTechnologyLightMaterials.description>Позволяет создавать Легкие материалы.</ZheilTechnologyLightMaterials.description>
+  
+  <ZheilTechnologySynthread.label>Синткань</ZheilTechnologySynthread.label>
+  <ZheilTechnologySynthread.description>Позволяет создавать Синткань.</ZheilTechnologySynthread.description>
+  
+  
+  <ZheilTechnologyUltraTech.label>Ультра технологии ZHEIL</ZheilTechnologyUltraTech.label>
+  <ZheilTechnologyUltraTech.description>Ультра технологии ZHEIL.</ZheilTechnologyUltraTech.description>
+
+
+  <ZheilTechnologySerumResurrector.label>Сыворотка воскрешения</ZheilTechnologySerumResurrector.label>
+  <ZheilTechnologySerumResurrector.description>Позволяет производить Сыворотку воскрешения.</ZheilTechnologySerumResurrector.description>
+
+  <ZheilTechnologySerumHealer.label>Сыворотка исцеления</ZheilTechnologySerumHealer.label>
+  <ZheilTechnologySerumHealer.description>Позволяет производить Сыворотку исцеления.</ZheilTechnologySerumHealer.description>
+  
+  <ZheilTechnologyHyperweave.label>Гиперткань</ZheilTechnologyHyperweave.label>
+  <ZheilTechnologyHyperweave.description>Позволяет создавать Гиперткань.</ZheilTechnologyHyperweave.description>
+  
+  <ZheilTechnologyLegendaryTech.label>Легендарные технологии ZHEIL</ZheilTechnologyLegendaryTech.label>
+  <ZheilTechnologyLegendaryTech.description>Легендарные технологии ZHEIL. Венец развития.</ZheilTechnologyLegendaryTech.description>
+  
+
+
+</LanguageData>

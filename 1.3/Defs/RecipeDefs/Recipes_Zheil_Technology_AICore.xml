@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <RecipeDef>
+    <defName>ZheilTechnologyMakeAiCore</defName>
+    <label>Make AI core</label>
+    <description>Make an AI core</description>
+    <jobString>Making AI core.</jobString>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat> <!-- SmithingSpeed -> GeneralLaborSpeed because 1.1 -->
+    <effectWorking>ConstructMetal</effectWorking>
+    <soundWorking>Recipe_Machining</soundWorking>
+    <workAmount>31500</workAmount>
+	<workSkill>Crafting</workSkill>
+	<workSkillLearnFactor>0.3</workSkillLearnFactor>
+    <unfinishedThingDef>ZheilTechnologyUnfinishedAICore</unfinishedThingDef>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>ComponentSpacer</li>
+          </thingDefs>
+        </filter>
+        <count>5</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Plasteel</li>
+          </thingDefs>
+        </filter>
+        <count>50</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Gold</li>
+          </thingDefs>
+        </filter>
+        <count>5</count> <!-- 50 Gold -->
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>ComponentSpacer</li>
+        <li>Plasteel</li>
+        <li>Steel</li>
+        <li>Gold</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <AIPersonaCore>1</AIPersonaCore>
+    </products>
+    <researchPrerequisite>ZheilTechnologyAICraft</researchPrerequisite>
+    <skillRequirements>
+      <Crafting>12</Crafting>
+    </skillRequirements>
+    <recipeUsers>
+	  <li>ZheilStation</li>
+    </recipeUsers>
+  </RecipeDef>
+</Defs>

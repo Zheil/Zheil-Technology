@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<RecipeDef>
+		<defName>ZheilTechnologyMakeResurrectorSerum</defName>
+		<label>make a Resurrector Serum</label>
+		<description>Make a Resurrector Serum</description>
+		<jobString>Synthesizing Resurrector Serum.</jobString>
+		<workSkill>Cooking</workSkill>
+		<effectWorking>Cook</effectWorking>
+		<soundWorking>Recipe_CookMeal</soundWorking>
+		<workAmount>1550</workAmount>
+		<workSpeedStat>CookSpeed</workSpeedStat>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Neutroamine</li>
+					</thingDefs>
+				</filter>
+				<count>150</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Gold</li>
+					</thingDefs>
+				</filter>
+				<count>20</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>ComponentSpacer</li>
+					</thingDefs>
+				</filter>
+				<count>15</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Neutroamine</li>
+				<li>Gold</li>
+				<li>ComponentSpacer</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<MechSerumResurrector>1</MechSerumResurrector>
+		</products>
+		<recipeUsers>
+			<li>ZheilStation</li>
+		</recipeUsers>
+		<researchPrerequisite>ZheilTechnologySerumResurrector</researchPrerequisite>
+	</RecipeDef>
+
+</Defs>

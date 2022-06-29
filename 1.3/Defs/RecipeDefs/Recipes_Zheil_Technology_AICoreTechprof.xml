@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <RecipeDef>
+    <defName>ZheilTechnologyMakeAiCoreTechProf</defName>
+    <label>Make Techprof subpersona core</label>
+    <description>Make a Techprof subpersona core</description>
+    <jobString>Making Techprof subpersona core.</jobString>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat> <!-- SmithingSpeed -> GeneralLaborSpeed because 1.1 -->
+    <effectWorking>ConstructMetal</effectWorking>
+    <soundWorking>Recipe_Machining</soundWorking>
+    <workAmount>51500</workAmount>
+	<workSkill>Crafting</workSkill>
+	<workSkillLearnFactor>0.3</workSkillLearnFactor>
+    <unfinishedThingDef>ZheilTechnologyUnfinishedAICore</unfinishedThingDef>
+    <ingredients>
+	    <li>
+        <filter>
+          <thingDefs>
+            <li>AIPersonaCore</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>ComponentSpacer</li>
+          </thingDefs>
+        </filter>
+        <count>5</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Plasteel</li>
+          </thingDefs>
+        </filter>
+        <count>100</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Gold</li>
+          </thingDefs>
+        </filter>
+        <count>5</count> <!-- 50 Gold -->
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+		<li>AIPersonaCore</li>
+        <li>ComponentSpacer</li>
+        <li>Plasteel</li>
+        <li>Steel</li>
+        <li>Gold</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <TechprofSubpersonaCore>1</TechprofSubpersonaCore>
+    </products>
+    <researchPrerequisite>ZheilTechnologyAICraft</researchPrerequisite>
+    <skillRequirements>
+      <Crafting>12</Crafting>
+    </skillRequirements>
+    <recipeUsers>
+	  <li>ZheilStation</li>
+    </recipeUsers>
+  </RecipeDef>
+</Defs>

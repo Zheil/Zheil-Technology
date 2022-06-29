@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <ZheilTechnologyWorkgiver.label>make a resource</ZheilTechnologyWorkgiver.label>
+  <ZheilTechnologyWorkgiver.verb>make</ZheilTechnologyWorkgiver.verb>
+  <ZheilTechnologyWorkgiver.gerund>make at</ZheilTechnologyWorkgiver.gerund>
+
+  <ZheilTechnologyWorkgiverSupply.label>buy a resource</ZheilTechnologyWorkgiverSupply.label>
+  <ZheilTechnologyWorkgiverSupply.verb>buy</ZheilTechnologyWorkgiverSupply.verb>
+  <ZheilTechnologyWorkgiverSupply.gerund>buy at</ZheilTechnologyWorkgiverSupply.gerund>
+
+</LanguageData>

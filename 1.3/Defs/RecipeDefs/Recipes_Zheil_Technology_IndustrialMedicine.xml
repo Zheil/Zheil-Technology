@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<RecipeDef>
+		<defName>ZheilTechnologyMakeIndustrialMedicine</defName>
+		<label>make an Industrial Medicine</label>
+		<description>Make an Industrial Medicine</description>
+		<jobString>Synthesizing Industrial Medicine.</jobString>
+		<workSkill>Cooking</workSkill>
+		<effectWorking>Cook</effectWorking>
+		<soundWorking>Recipe_CookMeal</soundWorking>
+		<workAmount>550</workAmount>
+		<workSpeedStat>CookSpeed</workSpeedStat>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Neutroamine</li>
+					</thingDefs>
+				</filter>
+				<count>15</count>
+			</li>
+
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Neutroamine</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<MedicineIndustrial>1</MedicineIndustrial>
+		</products>
+		<recipeUsers>
+			<li>ZheilStation</li>
+		</recipeUsers>
+		<researchPrerequisite>ZheilTechnologyIndustrialMedicine</researchPrerequisite>
+	</RecipeDef>
+
+</Defs>

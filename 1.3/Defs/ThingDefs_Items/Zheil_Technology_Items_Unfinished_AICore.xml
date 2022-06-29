@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <ThingDef ParentName="UnfinishedBase">
+    <defName>ZheilTechnologyUnfinishedAICore</defName>
+    <label>Unfinished AI core</label>
+    <description>An AI core in the making.</description>
+    <graphicData>
+      <texPath>Things/Item/Unfinished/UnfinishedAiCore</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <stackLimit>1</stackLimit>
+    <statBases>
+	  <MaxHitPoints>80</MaxHitPoints>
+      <Flammability>0</Flammability>
+      <DeteriorationRate>0</DeteriorationRate>
+      <Mass>2</Mass>
+	  <Beauty>-4</Beauty>
+      <MarketValue>3000</MarketValue> <!-- Important for raids  -->
+    </statBases>
+    <stuffCategories Inherit="false" />
+    <techLevel>Ultra</techLevel>
+  </ThingDef>
+</Defs>

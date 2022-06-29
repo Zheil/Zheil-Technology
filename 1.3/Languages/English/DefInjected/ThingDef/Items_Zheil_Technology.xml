@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <ZheilTechnologyUnfinishedAICore.label>Unfinished AI core</ZheilTechnologyUnfinishedAICore.label>
+  <ZheilTechnologyUnfinishedAICore.description>Core AI in development.</ZheilTechnologyUnfinishedAICore.description>
+  
+    <ZheilTechnologyUnfinishedAICoreTechProf.label>Unfinished techprof subpersona core</ZheilTechnologyUnfinishedAICoreTechProf.label>
+  <ZheilTechnologyUnfinishedAICoreTechProf.description>Techprof subpersona core in development.</ZheilTechnologyUnfinishedAICoreTechProf.description>
+
+  <RetardantWoodLog.label>Retardant Wood Log</RetardantWoodLog.label>
+  <RetardantWoodLog.description>Retardant Wood Log.</RetardantWoodLog.description>
+  <RetardantWoodLog.stuffProps.stuffAdjective>Retardant Wood Log</RetardantWoodLog.stuffProps.stuffAdjective>
+  
+  <ZheilTechnologyConcrete.label>Concrete</ZheilTechnologyConcrete.label>
+  <ZheilTechnologyConcrete.description>Concrete.</ZheilTechnologyConcrete.description>
+  <ZheilTechnologyConcrete.stuffProps.stuffAdjective>Concrete</ZheilTechnologyConcrete.stuffProps.stuffAdjective>
+  
+  <ZheilTechnologyBetaTitan.label>Beta-Titan</ZheilTechnologyBetaTitan.label>
+  <ZheilTechnologyBetaTitan.description>Beta-Titan.</ZheilTechnologyBetaTitan.description>
+  <ZheilTechnologyBetaTitan.stuffProps.stuffAdjective>Beta-Titan</ZheilTechnologyBetaTitan.stuffProps.stuffAdjective>
+  
+</LanguageData>

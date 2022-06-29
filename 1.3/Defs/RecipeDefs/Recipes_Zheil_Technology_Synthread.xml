@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <RecipeDef>
+		<defName>ZheilTechnologyMakeSynthread</defName>
+		<label>Produce Synthread</label>
+		<description>Produce Synthread.</description>
+		<jobString>Producing Synthread.</jobString>
+		<workAmount>1050</workAmount>
+		<workSpeedStat>DrugSynthesisSpeed</workSpeedStat>
+		<effectWorking>Tailor</effectWorking>
+		<soundWorking>Recipe_Tailor</soundWorking>
+		<workSkillLearnFactor>0.5</workSkillLearnFactor>
+		<ingredients>					
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Chemfuel</li>
+					</thingDefs>
+				</filter>
+				<count>40</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Chemfuel</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<skillRequirements>
+			<Crafting>5</Crafting>
+		</skillRequirements>
+		<workSkill>Intellectual</workSkill>
+		<products>
+			<Synthread>30</Synthread>
+		</products>
+		<recipeUsers>
+			<li>ZheilStation</li>
+		</recipeUsers>
+		<researchPrerequisite>ZheilTechnologySynthread</researchPrerequisite>
+  </RecipeDef>
+</Defs>
