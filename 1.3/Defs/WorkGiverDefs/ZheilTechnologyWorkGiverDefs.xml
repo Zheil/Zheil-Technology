@@ -41,7 +41,7 @@
 		<priorityInType>100</priorityInType>
 		<workType>Crafting</workType>
 		<fixedBillGiverDefs>
-			<li>ZheilTechnologyMakeLegendaryChemfuel</li>
+			<li>ZheilFuelLegendaryStation</li>
 		</fixedBillGiverDefs>
 		<verb>Synthesize</verb>
 		<gerund>Synthesize at</gerund>
