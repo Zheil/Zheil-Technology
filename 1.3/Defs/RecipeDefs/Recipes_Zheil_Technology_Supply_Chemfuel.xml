@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<RecipeDef>
+		<defName>ZheilTechnologyMakeSupplyChemfuelx25</defName>
+		<label>Buy Chemfuel x25</label>
+		<description>Buy Chemfuel x25</description>
+		<jobString>Buy Chemfuel x25.</jobString>
+		<effectWorking>Cremate</effectWorking>
+		<soundWorking>Recipe_Cremate</soundWorking>
+		<workAmount>5</workAmount>
+		<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+		
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Silver</li>
+					</thingDefs>
+				</filter>
+				<count>60</count>
+			</li>
+
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Silver</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<Chemfuel>25</Chemfuel>
+		</products>
+		<recipeUsers>
+			<li>ZheilSupplyStation</li>
+		</recipeUsers>
+		<researchPrerequisite>ZheilTechnologySupplyStation</researchPrerequisite>
+	</RecipeDef>
+
+		<RecipeDef>
+		<defName>ZheilTechnologyMakeSupplyChemfuelx50</defName>
+		<label>Buy Chemfuel x50</label>
+		<description>Buy Chemfuel x50</description>
+		<jobString>Buy Chemfuel x50.</jobString>
+		<effectWorking>Cremate</effectWorking>
+		<soundWorking>Recipe_Cremate</soundWorking>
+		<workAmount>5</workAmount>
+		<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+		
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Silver</li>
+					</thingDefs>
+				</filter>
+				<count>120</count>
+			</li>
+
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Silver</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<Chemfuel>50</Chemfuel>
+		</products>
+		<recipeUsers>
+			<li>ZheilSupplyStation</li>
+		</recipeUsers>
+		<researchPrerequisite>ZheilTechnologySupplyStation</researchPrerequisite>
+	</RecipeDef>
+
+</Defs>
