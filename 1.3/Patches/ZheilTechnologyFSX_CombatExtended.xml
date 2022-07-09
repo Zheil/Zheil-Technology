@@ -16,9 +16,9 @@
 
         <RecipeDef>
           <defName>ZheilTechnologyMakePrometheum</defName>
-          <label>make Prometheum x50</label>
+          <label>make Prometheum x30</label>
           <description>Craft Prometheum FSX.</description>
-          <jobString>Making Craft x50 Prometheum.</jobString>
+          <jobString>Making Craft x30 Prometheum.</jobString>
 		  <workAmount>2050</workAmount>
           <ingredients>
             <li>
