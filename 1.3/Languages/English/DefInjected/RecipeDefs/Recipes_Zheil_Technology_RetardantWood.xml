@@ -1,9 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
-  <ZheilTechnologyMakeRetardantWood.label>Make Retardant wood</ZheilTechnologyMakeRetardantWood.label>
-  <ZheilTechnologyMakeRetardantWood.description>Make 100x Retardant wood</ZheilTechnologyMakeRetardantWood.description>
-  <ZheilTechnologyMakeRetardantWood.jobString>Making Retardant Wood</ZheilTechnologyMakeRetardantWood.jobString>
+  <ZheilTechnologyMakeRetardantWood.label>Make Retardant wood x100</ZheilTechnologyMakeRetardantWood.label>
+  <ZheilTechnologyMakeRetardantWood.description>Make Retardant wood x100</ZheilTechnologyMakeRetardantWood.description>
+  <ZheilTechnologyMakeRetardantWood.jobString>Making Retardant Wood x100</ZheilTechnologyMakeRetardantWood.jobString>
 
 
 </LanguageData>

@@ -27,7 +27,7 @@
 			</thingDefs>
 		</fixedIngredientFilter>
 		<products>
-			<MedicineUltratech>1</MedicineUltratech>
+			<MedicineUltratech>2</MedicineUltratech>
 		</products>
 		<recipeUsers>
 			<li>ZheilStation</li>

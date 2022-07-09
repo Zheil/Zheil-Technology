@@ -1,9 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
-  <ZheilTechnologyMakeNeutroamine.label>Сделать Нейтроамин</ZheilTechnologyMakeNeutroamine.label>
-  <ZheilTechnologyMakeNeutroamine.description>Сделать кучу Нейтроамина</ZheilTechnologyMakeNeutroamine.description>
-  <ZheilTechnologyMakeNeutroamine.jobString>Синтезирует Нейтроамин</ZheilTechnologyMakeNeutroamine.jobString>
+  <ZheilTechnologyMakeNeutroamine.label>Сделать Нейтроамин x10</ZheilTechnologyMakeNeutroamine.label>
+  <ZheilTechnologyMakeNeutroamine.description>Сделать кучу Нейтроамина x10</ZheilTechnologyMakeNeutroamine.description>
+  <ZheilTechnologyMakeNeutroamine.jobString>Синтезирует Нейтроамин x10</ZheilTechnologyMakeNeutroamine.jobString>
 
 
 </LanguageData>

@@ -37,7 +37,7 @@
 		</thingDefs>
 	</fixedIngredientFilter>
     <products>
-      <ZheilTechnologyBetaTitan>80</ZheilTechnologyBetaTitan>
+      <ZheilTechnologyBetaTitan>50</ZheilTechnologyBetaTitan>
     </products>
     <workSkill>Crafting</workSkill>
     <researchPrerequisite>ZheilTechnologyLightMaterials</researchPrerequisite>
